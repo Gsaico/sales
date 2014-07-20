@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="bb905e22-636f-4424-b00e-152c6e348f65"
+  name="ModelingProject_SALES" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="bd30ed4a-385b-4a3f-81e9-f5bea25b8af5"
+        name="Administrador"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="e526ec6a-9771-4782-b6d1-27c7cb57ce7c"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="2. Gestionar Usuarios"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8a23261a-9f20-43f4-a239-5a5c5266bd50"
+              LastKnownName="2. Gestionar Usuarios"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="edee99ce-4522-4bf7-91a6-d8c750a3b52d"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c20d5942-1ff9-4cfc-babd-eae45a14ced5"
+                  name="2. Gestionar Usuarios"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="db642d81-57eb-4e52-82de-d9c5c853670e"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="3. Gestionar Almacen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d4622834-0b33-4f43-bda1-b985072be3e3"
+              LastKnownName="3. Gestionar Almacén"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="816a7209-1fda-489a-93e8-5aa3cf1fbeee"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1f02a85e-83a4-45f0-963e-9c1ffeb1cd96"
+                  name="3. Gestionar Almacen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="451cf9d7-36aa-4bf1-a4ab-faffa0ebe9fd"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="b1f255b4-f6d9-4df7-9f23-fccedb709d99"
+            isDerived="false"
+            sourceEndRoleName="Usuario"
+            targetEndRoleName="1. Loguearse"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="25a4f26c-c613-410b-9fb3-6ecf6cf1602e"
+              LastKnownName="1. Loguearse"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cf66896c-9cfd-4a22-81bc-1174b439e432"
+                  name="Usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dc739342-d171-48ed-b501-22a6b951bede"
+                  name="1. Loguearse"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="25a4f26c-c613-410b-9fb3-6ecf6cf1602e"
+        name="1. Loguearse"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="3f56ef6b-6e06-4643-9bbc-4b5906c2ca4c"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8a23261a-9f20-43f4-a239-5a5c5266bd50"
+        name="2. Gestionar Usuarios"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="2fe60871-9924-4593-bb5f-0e96da201457">
+            <useCaseMoniker
+              Id="25a4f26c-c613-410b-9fb3-6ecf6cf1602e"
+              LastKnownName="1. Loguearse"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="3f56ef6b-6e06-4643-9bbc-4b5906c2ca4c"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="be611ef7-431a-4bcd-8053-6603b0286f5f"
+        name="UseCase3"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d4622834-0b33-4f43-bda1-b985072be3e3"
+        name="3. Gestionar Almacén"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="6312e413-a13e-41fc-983c-67d0eb50c37c">
+            <useCaseMoniker
+              Id="25a4f26c-c613-410b-9fb3-6ecf6cf1602e"
+              LastKnownName="1. Loguearse"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="3f56ef6b-6e06-4643-9bbc-4b5906c2ca4c"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4e84d52f-1ac9-4aaf-9d7b-1a69428db4a8"
+        name="4. Gestionar Venta"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="64b47b42-544b-4557-9ab6-ac64f626784d">
+            <useCaseMoniker
+              Id="25a4f26c-c613-410b-9fb3-6ecf6cf1602e"
+              LastKnownName="1. Loguearse"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="3f56ef6b-6e06-4643-9bbc-4b5906c2ca4c"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2f59e9ad-aa1a-4be1-b2f7-918186515ca7"
+        name="5. Gestionar Almacen"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="3f56ef6b-6e06-4643-9bbc-4b5906c2ca4c"
+        name="sales"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="d1a964a7-05bd-4c07-9c06-ecb04f9e8d4d"
+        name="Administrador"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="3964ed3a-4e49-48f2-af0b-d9621698448b"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="2. Gestionar Usuarios"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b7606ea1-5c39-4a88-bb03-c47123d009ef"
+              LastKnownName="2. Gestionar Usuarios"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ec3c23b0-2cbb-4329-be01-22e51c0d1237"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4d5dd9ec-837b-4694-bc1e-a3a0ce2f19dd"
+                  name="2. Gestionar Usuarios"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="ee378a02-52b7-4df9-8237-113598ade266"
+        name="sales"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b7606ea1-5c39-4a88-bb03-c47123d009ef"
+        name="2. Gestionar Usuarios"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="a22030d0-9b89-49a7-960c-de7557f27b8b">
+            <useCaseMoniker
+              Id="e4ac82ef-687b-49f5-9393-2b693a34b329"
+              LastKnownName="2.1 Validar Usuario"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="ee378a02-52b7-4df9-8237-113598ade266"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e4ac82ef-687b-49f5-9393-2b693a34b329"
+        name="2.1 Validar Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="ee378a02-52b7-4df9-8237-113598ade266"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7d25ca28-38c2-4455-8c4c-7b6438d632be"
+        name="2.2  Registrar Usuario "
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="cc26c682-d8b0-40b7-8352-a9e21544cd7e">
+            <useCaseMoniker
+              Id="b7606ea1-5c39-4a88-bb03-c47123d009ef"
+              LastKnownName="2. Gestionar Usuarios"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="dbfbde0c-eb52-413a-9b90-0aaeca5f083b">
+            <useCaseMoniker
+              Id="2a2bf424-bb03-4be5-adbc-50363dc01aec"
+              LastKnownName="2.1 Validar Usuario"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="ee378a02-52b7-4df9-8237-113598ade266"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6d38961f-e66b-4059-9fc0-cb8aa82360db"
+        name="2.2  Modificar Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="611227bf-06d5-429b-ae2e-2d72296baa83">
+            <useCaseMoniker
+              Id="b7606ea1-5c39-4a88-bb03-c47123d009ef"
+              LastKnownName="2. Gestionar Usuarios"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="27f7bfb4-39de-44a9-a7e0-c8b3a241e269">
+            <useCaseMoniker
+              Id="2a2bf424-bb03-4be5-adbc-50363dc01aec"
+              LastKnownName="2.1 Validar Usuario"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="ee378a02-52b7-4df9-8237-113598ade266"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d30cca7d-d1f9-4815-940f-63848131a6bb"
+        name="2.2  Eliminar Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="8f025164-5f3c-42e4-87cd-0554186c640b">
+            <useCaseMoniker
+              Id="b7606ea1-5c39-4a88-bb03-c47123d009ef"
+              LastKnownName="2. Gestionar Usuarios"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="93e96d6e-22e8-4d56-8194-5d46c45f40c3">
+            <useCaseMoniker
+              Id="2a2bf424-bb03-4be5-adbc-50363dc01aec"
+              LastKnownName="2.1 Validar Usuario"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="ee378a02-52b7-4df9-8237-113598ade266"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2a2bf424-bb03-4be5-adbc-50363dc01aec"
+        name="2.1 Validar Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="ee378a02-52b7-4df9-8237-113598ade266"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="fbc1fd1e-890b-4e3f-83ce-e628c3d3f078"
+        name="Administrador"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="f898ce00-c0e8-4b4c-8ee9-92c1284edd45"
+            isDerived="false"
+            sourceEndRoleName="Administrador1"
+            targetEndRoleName="3. Gestionar Almacén (camiones)"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8c5bd555-3842-4b11-8c5c-9a575ab6e4c5"
+              LastKnownName="3. Gestionar Almacén (Vehículo)"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="545d6f1c-1263-42c7-a4b6-b8254667a9f0"
+                  name="Administrador1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a4cff219-cda1-4a49-849c-d188346ae609"
+                  name="3. Gestionar Almacén (camiones)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="5e443957-e013-438b-b58f-295bacf2d1a4"
+        name="sales"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8c5bd555-3842-4b11-8c5c-9a575ab6e4c5"
+        name="3. Gestionar Almacén (Vehículo)"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="5e443957-e013-438b-b58f-295bacf2d1a4"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bb1ed90f-42a1-4811-99ed-26a38e697e27"
+        name="3.1 Consultar Vehículo"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="99fae023-43c5-4eab-869a-bb116a9f5e36">
+            <useCaseMoniker
+              Id="8c5bd555-3842-4b11-8c5c-9a575ab6e4c5"
+              LastKnownName="3. Gestionar Almacén (Vehículo)"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="5e443957-e013-438b-b58f-295bacf2d1a4"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6411b1c9-b27f-4443-8294-5d76b4e4b659"
+        name="3.2 Registrar Vehículo"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="a0da7cd3-27b9-4a4c-af0b-a0b805c1fa18">
+            <useCaseMoniker
+              Id="8c5bd555-3842-4b11-8c5c-9a575ab6e4c5"
+              LastKnownName="3. Gestionar Almacén (Vehículo)"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="5e443957-e013-438b-b58f-295bacf2d1a4"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3ba481df-7142-4de9-89f7-d741c01b400d"
+        name="3.3 Actualizar Vehículo"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="822217ac-036d-44b7-887b-c508d1a82e18">
+            <useCaseMoniker
+              Id="8c5bd555-3842-4b11-8c5c-9a575ab6e4c5"
+              LastKnownName="3. Gestionar Almacén (Vehículo)"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="5e443957-e013-438b-b58f-295bacf2d1a4"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4a8d6eb6-8dee-4440-ac9d-5667a785d069"
+        name="3.4 Eliminar Vehículo"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="2def9905-c40b-4a90-bca6-8558c411ca26">
+            <useCaseMoniker
+              Id="8c5bd555-3842-4b11-8c5c-9a575ab6e4c5"
+              LastKnownName="3. Gestionar Almacén (Vehículo)"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="5e443957-e013-438b-b58f-295bacf2d1a4"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a64e1761-0174-4742-b46f-11893a0de421"
+        name="3.1 Consultar Almacén4"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0ccdd950-044c-418f-87e1-d6507bbea40b"
+        name="3.1 Consultar Bienes1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="be35b9ee-589f-4a4b-97af-a2c99cbe5855"
+        name="sales"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="70c2bfa2-d12b-4458-8250-784d23d1ae84"
+        name="4. Gestionar Venta"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="be35b9ee-589f-4a4b-97af-a2c99cbe5855"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="2bcf50b3-8f70-4b88-8a14-0d40fabd8589"
+        name="Usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c0af4d18-65bf-468b-b9ed-89bb83d3de60"
+            isDerived="false"
+            sourceEndRoleName="Usuario1"
+            targetEndRoleName="4. Gestionar Venta"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="70c2bfa2-d12b-4458-8250-784d23d1ae84"
+              LastKnownName="4. Gestionar Venta"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="783de8bd-110e-4687-bbfb-ce109bc72b8f"
+                  name="Usuario1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c4a68b00-3dd1-43d7-8742-dc0d8b82f241"
+                  name="4. Gestionar Venta"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3cf464c7-2ce4-45c5-8a60-14194e129542"
+        name="4.1 Vender Vehículo"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="ac036f87-6eb0-44f4-89fe-7a3a4ca97def">
+            <useCaseMoniker
+              Id="70c2bfa2-d12b-4458-8250-784d23d1ae84"
+              LastKnownName="4. Gestionar Venta"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="b2ad9dfe-7bdc-4a1c-b9b3-b38fe7904431">
+            <useCaseMoniker
+              Id="e42c2de6-b2f6-49d5-9168-f8adee163ce1"
+              LastKnownName="3.1 Consultar Vehículo"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="be35b9ee-589f-4a4b-97af-a2c99cbe5855"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cd2d5204-d9da-4114-a0de-91867f136f1a"
+        name="4.2  Proforma Vehículo"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="a7342147-ef6a-4ff6-a3e1-c3b65cf0b829">
+            <useCaseMoniker
+              Id="70c2bfa2-d12b-4458-8250-784d23d1ae84"
+              LastKnownName="4. Gestionar Venta"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="be35b9ee-589f-4a4b-97af-a2c99cbe5855"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="787712f1-540b-451c-9bd1-3b65dc4d57a8"
+        name="  Lising"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="07bd2083-86bd-47dc-96cd-90b8bef72d99">
+            <useCaseMoniker
+              Id="e42c2de6-b2f6-49d5-9168-f8adee163ce1"
+              LastKnownName="3.1 Consultar Vehículo"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="955ca868-ae56-41b1-9a25-c3e73bd07158"
+        name="venta al contado"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="ae432457-2bca-44c5-a447-71fe87cbc2d9">
+            <useCaseMoniker
+              Id="e42c2de6-b2f6-49d5-9168-f8adee163ce1"
+              LastKnownName="3.1 Consultar Vehículo"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="be35b9ee-589f-4a4b-97af-a2c99cbe5855"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="94acc45b-1ec5-42e1-83b2-df8c81c7ad01"
+        name="Venta al Credito"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="cc8927ab-2ad9-4b5e-9dec-d5c6ea11df0c">
+            <useCaseMoniker
+              Id="e42c2de6-b2f6-49d5-9168-f8adee163ce1"
+              LastKnownName="3.1 Consultar Vehículo"
+              LastKnownLocation="ModelingProject_SALES.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="be35b9ee-589f-4a4b-97af-a2c99cbe5855"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e42c2de6-b2f6-49d5-9168-f8adee163ce1"
+        name="3.1 Consultar Vehículo"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="be35b9ee-589f-4a4b-97af-a2c99cbe5855"
+            LastKnownName="sales"
+            LastKnownLocation="ModelingProject_SALES.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="639d45d7-31af-44d7-98f9-4c3a913da907"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

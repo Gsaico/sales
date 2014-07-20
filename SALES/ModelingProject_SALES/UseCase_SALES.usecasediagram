@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="2ef2296d-bbfe-4865-9b25-763d8d7b0a23" name="UseCase_SALES" linkedPackageId="bf8bdbfc-d8f1-46fc-a312-a9ce6bfca348" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="d00fa39a-8abd-4089-8405-f3f307ae7223" name="Administrador" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bd30ed4a-385b-4a3f-81e9-f5bea25b8af5" />
+        <targetEnds>
+          <association Id="9ffa8c8a-ddf5-424e-b073-f98ef320233a" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="2. Gestionar Usuarios" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1ab1c95e-4c89-42c7-a403-3f5c9a549f3a" LastKnownName="2. Gestionar Usuarios" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f9695967-6cc1-480a-98f1-e19e922687fd" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="edee99ce-4522-4bf7-91a6-d8c750a3b52d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bc377f82-0ec8-4255-bc4b-65f1679aa39f" name="2. Gestionar Usuarios" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c20d5942-1ff9-4cfc-babd-eae45a14ced5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e526ec6a-9771-4782-b6d1-27c7cb57ce7c" />
+          </association>
+          <association Id="4ab45819-1298-4e38-8e5b-6d6c76e7f532" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="3. Gestionar Almacen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="010b7352-42b1-45f0-bbeb-d7b34ad30a9e" LastKnownName="3. Gestionar Almacén" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="184a98c7-5b9e-4f2a-b189-588180be0b7b" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="816a7209-1fda-489a-93e8-5aa3cf1fbeee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5e33bda1-eb29-4ffd-bce0-b15d609652f8" name="3. Gestionar Almacen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1f02a85e-83a4-45f0-963e-9c1ffeb1cd96" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="db642d81-57eb-4e52-82de-d9c5c853670e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="3644962e-1515-4654-9bd4-51e237fb7cde" name="Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="451cf9d7-36aa-4bf1-a4ab-faffa0ebe9fd" />
+        <targetEnds>
+          <association Id="575219cc-7e84-4f13-bd16-65024144dc06" isDerived="false" sourceEndRoleName="Usuario" targetEndRoleName="1. Loguearse" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Loguearse" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6b567bd5-f52b-4407-9b9b-9c293c197bad" name="Usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cf66896c-9cfd-4a22-81bc-1174b439e432" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3d3a7f68-7a93-4f6c-b97f-794227a1370f" name="1. Loguearse" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dc739342-d171-48ed-b501-22a6b951bede" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b1f255b4-f6d9-4df7-9f23-fccedb709d99" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" name="1. Loguearse" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="25a4f26c-c613-410b-9fb3-6ecf6cf1602e" />
+        <subjects>
+          <subsystemMoniker Id="b2749d37-275f-4e8e-923d-5db968349af6" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1ab1c95e-4c89-42c7-a403-3f5c9a549f3a" name="2. Gestionar Usuarios" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8a23261a-9f20-43f4-a239-5a5c5266bd50" />
+        <extendedCases>
+          <extend Id="155cc28e-d699-4d9f-bccb-44c16922dcd3">
+            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Loguearse" />
+            <elementDefinition Id="2fe60871-9924-4593-bb5f-0e96da201457" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="b2749d37-275f-4e8e-923d-5db968349af6" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="010b7352-42b1-45f0-bbeb-d7b34ad30a9e" name="3. Gestionar Almacén" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d4622834-0b33-4f43-bda1-b985072be3e3" />
+        <extendedCases>
+          <extend Id="cb0de57c-f427-4610-b197-2b9f5767bf5a">
+            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Loguearse" />
+            <elementDefinition Id="6312e413-a13e-41fc-983c-67d0eb50c37c" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="b2749d37-275f-4e8e-923d-5db968349af6" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ee20c86a-cf3f-422e-b622-af23e039b710" name="4. Gestionar Venta" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4e84d52f-1ac9-4aaf-9d7b-1a69428db4a8" />
+        <extendedCases>
+          <extend Id="3cc57526-7f69-438f-8c7f-a6e46d648f13">
+            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Loguearse" />
+            <elementDefinition Id="64b47b42-544b-4557-9ab6-ac64f626784d" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="b2749d37-275f-4e8e-923d-5db968349af6" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="b2749d37-275f-4e8e-923d-5db968349af6" name="sales" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3f56ef6b-6e06-4643-9bbc-4b5906c2ca4c" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c5dac7a0-e21c-477b-b721-e34ce63a9922" name="Administrador" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d1a964a7-05bd-4c07-9c06-ecb04f9e8d4d" />
+        <targetEnds>
+          <association Id="3e3ff9a8-d338-4a0e-b1bd-c64a10a4a0e7" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="2. Gestionar Usuarios" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2e8581c5-814c-4108-acc4-b4f27ad88f23" LastKnownName="2. Gestionar Usuarios" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="37705151-bf74-41ed-b984-b5cdfd641014" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ec3c23b0-2cbb-4329-be01-22e51c0d1237" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6694bcc5-8943-442a-80fe-0a055efee8a2" name="2. Gestionar Usuarios" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4d5dd9ec-837b-4694-bc1e-a3a0ce2f19dd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3964ed3a-4e49-48f2-af0b-d9621698448b" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="30f2fc8e-4c69-483d-968b-98411a730686" name="sales" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ee378a02-52b7-4df9-8237-113598ade266" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="2e8581c5-814c-4108-acc4-b4f27ad88f23" name="2. Gestionar Usuarios" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b7606ea1-5c39-4a88-bb03-c47123d009ef" />
+        <additions>
+          <include Id="35c5f9a0-8c0d-4d6d-be5f-6300fc375221">
+            <useCaseMoniker Id="5f8b6d0d-40b7-45d1-a0f2-d1b9f9c2bcc6" LastKnownName="2.1 Validar Usuario" />
+            <elementDefinition Id="a22030d0-9b89-49a7-960c-de7557f27b8b" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="30f2fc8e-4c69-483d-968b-98411a730686" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5f8b6d0d-40b7-45d1-a0f2-d1b9f9c2bcc6" name="2.1 Validar Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e4ac82ef-687b-49f5-9393-2b693a34b329" />
+        <subjects>
+          <subsystemMoniker Id="30f2fc8e-4c69-483d-968b-98411a730686" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ce6c1d9e-883c-4469-a072-2c24529a9f72" name="2.2  Registrar Usuario " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7d25ca28-38c2-4455-8c4c-7b6438d632be" />
+        <extendedCases>
+          <extend Id="afe31b5b-6547-4188-91b9-5e97eb052be9">
+            <useCaseMoniker Id="2e8581c5-814c-4108-acc4-b4f27ad88f23" LastKnownName="2. Gestionar Usuarios" />
+            <elementDefinition Id="cc26c682-d8b0-40b7-8352-a9e21544cd7e" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="c849e16a-24c6-4247-83fd-cb87165be122">
+            <useCaseMoniker Id="7ddb0c26-e8fe-4c5d-b6cf-e409ac7fd907" LastKnownName="2.1 Validar Usuario" />
+            <elementDefinition Id="dbfbde0c-eb52-413a-9b90-0aaeca5f083b" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="30f2fc8e-4c69-483d-968b-98411a730686" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="59786642-ea17-4922-9f40-b4b6f02b733e" name="2.2  Modificar Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6d38961f-e66b-4059-9fc0-cb8aa82360db" />
+        <extendedCases>
+          <extend Id="7f031bc2-d27a-4fbb-af9a-5e146f2ce63e">
+            <useCaseMoniker Id="2e8581c5-814c-4108-acc4-b4f27ad88f23" LastKnownName="2. Gestionar Usuarios" />
+            <elementDefinition Id="611227bf-06d5-429b-ae2e-2d72296baa83" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="80fd5b23-02a9-422b-90f9-2fdd791d7fc7">
+            <useCaseMoniker Id="7ddb0c26-e8fe-4c5d-b6cf-e409ac7fd907" LastKnownName="2.1 Validar Usuario" />
+            <elementDefinition Id="27f7bfb4-39de-44a9-a7e0-c8b3a241e269" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="30f2fc8e-4c69-483d-968b-98411a730686" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="008c6c44-1d8b-4a72-a3c4-2f0199bb4158" name="2.2  Eliminar Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d30cca7d-d1f9-4815-940f-63848131a6bb" />
+        <extendedCases>
+          <extend Id="29c377f6-5667-4fdb-baa9-c6344d9300af">
+            <useCaseMoniker Id="2e8581c5-814c-4108-acc4-b4f27ad88f23" LastKnownName="2. Gestionar Usuarios" />
+            <elementDefinition Id="8f025164-5f3c-42e4-87cd-0554186c640b" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="52238fb3-d9ee-4a6a-9289-7abe4e708786">
+            <useCaseMoniker Id="7ddb0c26-e8fe-4c5d-b6cf-e409ac7fd907" LastKnownName="2.1 Validar Usuario" />
+            <elementDefinition Id="93e96d6e-22e8-4d56-8194-5d46c45f40c3" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="30f2fc8e-4c69-483d-968b-98411a730686" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7ddb0c26-e8fe-4c5d-b6cf-e409ac7fd907" name="2.1 Validar Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2a2bf424-bb03-4be5-adbc-50363dc01aec" />
+        <subjects>
+          <subsystemMoniker Id="30f2fc8e-4c69-483d-968b-98411a730686" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="9b4977f2-0f5a-48f4-ac8b-7e3b0605377b" name="Administrador" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fbc1fd1e-890b-4e3f-83ce-e628c3d3f078" />
+        <targetEnds>
+          <association Id="59d77860-5ce5-4641-a79b-b17ad60bfab1" isDerived="false" sourceEndRoleName="Administrador1" targetEndRoleName="3. Gestionar Almacén (camiones)" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d798b749-aaaa-4f98-a4b6-6e6cae8fccea" LastKnownName="3. Gestionar Almacén (Vehículo)" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6243b834-bad1-4c75-8dbe-4aac391bf5e3" name="Administrador1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="545d6f1c-1263-42c7-a4b6-b8254667a9f0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="78bbeff9-692a-4aa7-9cef-dd5dd971fe56" name="3. Gestionar Almacén (camiones)" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a4cff219-cda1-4a49-849c-d188346ae609" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f898ce00-c0e8-4b4c-8ee9-92c1284edd45" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="dcb3dffb-b806-445c-a2b2-2e6ffee54f0b" name="sales" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5e443957-e013-438b-b58f-295bacf2d1a4" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="d798b749-aaaa-4f98-a4b6-6e6cae8fccea" name="3. Gestionar Almacén (Vehículo)" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8c5bd555-3842-4b11-8c5c-9a575ab6e4c5" />
+        <subjects>
+          <subsystemMoniker Id="dcb3dffb-b806-445c-a2b2-2e6ffee54f0b" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a9a56832-0493-4a0d-bcb1-547ae9c82b63" name="3.1 Consultar Vehículo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bb1ed90f-42a1-4811-99ed-26a38e697e27" />
+        <extendedCases>
+          <extend Id="94fb6146-6400-44ba-af7f-d8c3ca222595">
+            <useCaseMoniker Id="d798b749-aaaa-4f98-a4b6-6e6cae8fccea" LastKnownName="3. Gestionar Almacén (Vehículo)" />
+            <elementDefinition Id="99fae023-43c5-4eab-869a-bb116a9f5e36" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="dcb3dffb-b806-445c-a2b2-2e6ffee54f0b" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="39132595-a3fa-4f4a-9831-867a3cb4d4b7" name="3.2 Registrar Vehículo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6411b1c9-b27f-4443-8294-5d76b4e4b659" />
+        <extendedCases>
+          <extend Id="f91a9359-b500-4773-89a0-eca0594443bb">
+            <useCaseMoniker Id="d798b749-aaaa-4f98-a4b6-6e6cae8fccea" LastKnownName="3. Gestionar Almacén (Vehículo)" />
+            <elementDefinition Id="a0da7cd3-27b9-4a4c-af0b-a0b805c1fa18" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="dcb3dffb-b806-445c-a2b2-2e6ffee54f0b" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="27503deb-2cc8-4600-89aa-5b6f599a4c74" name="3.3 Actualizar Vehículo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3ba481df-7142-4de9-89f7-d741c01b400d" />
+        <extendedCases>
+          <extend Id="28252a4e-6498-4556-9930-4c20d1b99c81">
+            <useCaseMoniker Id="d798b749-aaaa-4f98-a4b6-6e6cae8fccea" LastKnownName="3. Gestionar Almacén (Vehículo)" />
+            <elementDefinition Id="822217ac-036d-44b7-887b-c508d1a82e18" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="dcb3dffb-b806-445c-a2b2-2e6ffee54f0b" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a2014ae7-30df-41e7-90ea-133aa4f4b1fb" name="3.4 Eliminar Vehículo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4a8d6eb6-8dee-4440-ac9d-5667a785d069" />
+        <extendedCases>
+          <extend Id="792d3d44-25f4-478a-9e5f-1c05f5b6dc4f">
+            <useCaseMoniker Id="d798b749-aaaa-4f98-a4b6-6e6cae8fccea" LastKnownName="3. Gestionar Almacén (Vehículo)" />
+            <elementDefinition Id="2def9905-c40b-4a90-bca6-8558c411ca26" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="dcb3dffb-b806-445c-a2b2-2e6ffee54f0b" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="2950f388-e629-4d32-b070-08ce5e5078d3" name="sales" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="be35b9ee-589f-4a4b-97af-a2c99cbe5855" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="f7c54294-f9fc-46c6-a9d3-87ef28370f02" name="4. Gestionar Venta" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="70c2bfa2-d12b-4458-8250-784d23d1ae84" />
+        <subjects>
+          <subsystemMoniker Id="2950f388-e629-4d32-b070-08ce5e5078d3" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="f9646c2b-f6fb-489c-b4a9-f906d5050550" name="Usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2bcf50b3-8f70-4b88-8a14-0d40fabd8589" />
+        <targetEnds>
+          <association Id="a96bb3f3-3446-4862-a5fd-cb57bd9b0823" isDerived="false" sourceEndRoleName="Usuario1" targetEndRoleName="4. Gestionar Venta" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f7c54294-f9fc-46c6-a9d3-87ef28370f02" LastKnownName="4. Gestionar Venta" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="924149e4-aa18-477a-9e49-636e6fbd5d8e" name="Usuario1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="783de8bd-110e-4687-bbfb-ce109bc72b8f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="994d298e-5921-4f84-b149-f18d3ab039ba" name="4. Gestionar Venta" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c4a68b00-3dd1-43d7-8742-dc0d8b82f241" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c0af4d18-65bf-468b-b9ed-89bb83d3de60" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="c1975509-4d13-4330-9f22-d973caaa5689" name="4.1 Vender Vehículo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3cf464c7-2ce4-45c5-8a60-14194e129542" />
+        <extendedCases>
+          <extend Id="563dcaa5-21c0-487c-89db-e9b292a41079">
+            <useCaseMoniker Id="f7c54294-f9fc-46c6-a9d3-87ef28370f02" LastKnownName="4. Gestionar Venta" />
+            <elementDefinition Id="ac036f87-6eb0-44f4-89fe-7a3a4ca97def" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="d85f4244-bb9f-4fb5-8ffe-2e8482e87c8f">
+            <useCaseMoniker Id="a1cbc0b8-bcc9-440a-92c8-2d2c39edd94d" LastKnownName="3.1 Consultar Vehículo" />
+            <elementDefinition Id="b2ad9dfe-7bdc-4a1c-b9b3-b38fe7904431" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="2950f388-e629-4d32-b070-08ce5e5078d3" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2609b834-ca6a-4abf-b606-89b22608a4ee" name="4.2  Proforma Vehículo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cd2d5204-d9da-4114-a0de-91867f136f1a" />
+        <extendedCases>
+          <extend Id="3578047d-1a20-485f-b6eb-3c1c555d2d4c">
+            <useCaseMoniker Id="f7c54294-f9fc-46c6-a9d3-87ef28370f02" LastKnownName="4. Gestionar Venta" />
+            <elementDefinition Id="a7342147-ef6a-4ff6-a3e1-c3b65cf0b829" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="2950f388-e629-4d32-b070-08ce5e5078d3" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="fe1a38f4-5550-4360-874a-7217e840398e" name="venta al contado" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="955ca868-ae56-41b1-9a25-c3e73bd07158" />
+        <extendedCases>
+          <extend Id="9a493ae7-9516-49df-aeeb-92959eeb7d78">
+            <useCaseMoniker Id="a1cbc0b8-bcc9-440a-92c8-2d2c39edd94d" LastKnownName="3.1 Consultar Vehículo" />
+            <elementDefinition Id="ae432457-2bca-44c5-a447-71fe87cbc2d9" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="2950f388-e629-4d32-b070-08ce5e5078d3" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="02fdeb2c-7ac3-4b90-bc30-c9dc434b7ff2" name="Venta al Credito" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="94acc45b-1ec5-42e1-83b2-df8c81c7ad01" />
+        <extendedCases>
+          <extend Id="b881197e-c2eb-4294-9ac7-a1f1f06fcece">
+            <useCaseMoniker Id="a1cbc0b8-bcc9-440a-92c8-2d2c39edd94d" LastKnownName="3.1 Consultar Vehículo" />
+            <elementDefinition Id="cc8927ab-2ad9-4b5e-9dec-d5c6ea11df0c" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="2950f388-e629-4d32-b070-08ce5e5078d3" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a1cbc0b8-bcc9-440a-92c8-2d2c39edd94d" name="3.1 Consultar Vehículo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e42c2de6-b2f6-49d5-9168-f8adee163ce1" />
+        <subjects>
+          <subsystemMoniker Id="2950f388-e629-4d32-b070-08ce5e5078d3" LastKnownName="sales" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="bf8bdbfc-d8f1-46fc-a312-a9ce6bfca348" name="ModelingProject_SALES">
+    <elementDefinition Id="bb905e22-636f-4424-b00e-152c6e348f65" />
+    <profileInstances>
+      <packageHasProfileInstances Id="f22b694a-a3b2-4296-a452-61216eeb2ea7">
+        <profileInstance Id="5282b314-87b0-4307-b387-a775e87c9914" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="30824553-3cfb-4bfa-8db2-3b4b5bd62eac">
+        <profileInstance Id="eb718e4d-9254-44bd-9521-7cf305eb92a7" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
