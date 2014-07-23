@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="adf90546-fe1a-4787-8759-723bb88d2d1e" name="ClassDiagram_SALES" linkedPackageId="6b95df28-936c-48f7-90dc-b247060d67e3" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d0ae0a49-1e6f-44c4-87ff-f2e1250adf53" name="Almacen" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="639d45d7-31af-44d7-98f9-4c3a913da907" />
+        <ownedAttributesInternal>
+          <property Id="5522a619-f4ee-4ca0-886b-fa7f0fc16149" name="Id_producto" isLeaf="false" isStatic="false" isReadOnly="false" isOrdered="true" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <lowerValueInternal>
+              <literalString Id="9fda8021-db80-4d38-8033-9887de90562e" name="Lower" value="1">
+                <elementDefinition Id="dc92a0bc-4d10-4c47-8a78-7b541c681d92" />
+              </literalString>
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString Id="8a5bb283-5f9c-426a-b5ac-67d3b617845c" name="Upper" value="1">
+                <elementDefinition Id="9da0ed99-a5a3-4721-a931-393a0497893f" />
+              </literalString>
+            </upperValueInternal>
+            <elementDefinition Id="344fb7bb-450e-4a43-8d5a-87acf22e493d" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="9da00379-2ac4-4a99-99e0-cf836d258408" name="stockdeproducto" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3b0402c9-6e11-4846-97c2-cd5360e79dd5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6f26c946-2e93-4883-91f9-c06b8306857f" direction="Return" isUnique="false">
+                  <elementDefinition Id="3217f12e-4e87-4676-86ba-15fe012e6048" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="040eb05f-ce5b-43c3-a527-a0c1ea2ad564" LastKnownName="Boolean" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="5a2b827f-c8a1-469e-9dc5-119aa54a39fb" name="Operation1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="edfe8a2e-89bd-4543-9bd3-a31d9d92c405" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="040eb05f-ce5b-43c3-a527-a0c1ea2ad564" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="6b95df28-936c-48f7-90dc-b247060d67e3" name="ModelingProject_SALES">
+    <elementDefinition Id="bb905e22-636f-4424-b00e-152c6e348f65" />
+    <profileInstances>
+      <packageHasProfileInstances Id="48c40fbf-b6e0-4f2f-accb-1c617187d94c">
+        <profileInstance Id="bddb577a-bad3-4b5b-aa2f-42c904dcec8e" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="9eb2de47-57b8-45c1-9a3c-42c535842a99">
+        <profileInstance Id="0b447afe-b4be-444b-a679-68f55c212908" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

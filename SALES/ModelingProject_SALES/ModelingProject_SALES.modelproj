@@ -22,23 +22,54 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
-    <Content Include="ClassDiagram_SALES.classdiagram">
+    <Content Include="caso de  uso\UseCase_SALES.usecasediagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ClassDiagram_SALES.classdiagram.layout">
+    <Content Include="caso de  uso\UseCase_SALES.usecasediagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>ClassDiagram_SALES.classdiagram</DependentUpon>
+      <DependentUpon>caso de  uso\UseCase_SALES.usecasediagram</DependentUpon>
     </Content>
-    <Content Include="UseCase_SALES.usecasediagram">
+    <Content Include="clases\ClassDiagram_SALES.classdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UseCase_SALES.usecasediagram.layout">
+    <Content Include="clases\ClassDiagram_SALES.classdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>UseCase_SALES.usecasediagram</DependentUpon>
+      <DependentUpon>clases\ClassDiagram_SALES.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="secuencias\Gestionar Venta.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="secuencias\Gestionar Venta.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>secuencias\Gestionar Venta.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="secuencias\GestionarAlmacen.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="secuencias\GestionarAlmacen.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>secuencias\GestionarAlmacen.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="secuencias\GestionarUsuarios.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="secuencias\GestionarUsuarios.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>secuencias\GestionarUsuarios.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="secuencias\registrarse.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="secuencias\registrarse.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>secuencias\registrarse.sequencediagram</DependentUpon>
     </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\ModelingProject_SALES.uml">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="caso de  uso" />
+    <Folder Include="clases" />
+    <Folder Include="secuencias" />
   </ItemGroup>
 </Project>

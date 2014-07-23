@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="2ef2296d-bbfe-4865-9b25-763d8d7b0a23" name="UseCase_SALES" linkedPackageId="bf8bdbfc-d8f1-46fc-a312-a9ce6bfca348" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="2ef2296d-bbfe-4865-9b25-763d8d7b0a23" name="UseCase_SALES" linkedPackageId="bf8bdbfc-d8f1-46fc-a312-a9ce6bfca348" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
   <packagedElements>
     <useCaseModelRootHasTypes>
       <actor Id="d00fa39a-8abd-4089-8405-f3f307ae7223" name="Administrador" isAbstract="false" isLeaf="false">
         <elementDefinition Id="bd30ed4a-385b-4a3f-81e9-f5bea25b8af5" />
+        <generalsInternal>
+          <generalization Id="cee6f9a3-6f5a-4741-9d78-38193608fe6a" isSubstitutable="false">
+            <actorMoniker Id="3644962e-1515-4654-9bd4-51e237fb7cde" LastKnownName="Usuario" />
+            <elementDefinition Id="bca17b0c-541c-44ff-92f0-0648a72d9666" />
+          </generalization>
+        </generalsInternal>
         <targetEnds>
           <association Id="9ffa8c8a-ddf5-424e-b073-f98ef320233a" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="2. Gestionar Usuarios" isLeaf="false" isAbstract="false">
             <useCaseMoniker Id="1ab1c95e-4c89-42c7-a403-3f5c9a549f3a" LastKnownName="2. Gestionar Usuarios" />
@@ -45,7 +51,7 @@
         <elementDefinition Id="451cf9d7-36aa-4bf1-a4ab-faffa0ebe9fd" />
         <targetEnds>
           <association Id="575219cc-7e84-4f13-bd16-65024144dc06" isDerived="false" sourceEndRoleName="Usuario" targetEndRoleName="1. Loguearse" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Loguearse" />
+            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Registrarse" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="6b567bd5-f52b-4407-9b9b-9c293c197bad" name="Usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -64,7 +70,7 @@
       </actor>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
-      <useCase Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" name="1. Loguearse" isAbstract="false" isLeaf="false">
+      <useCase Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" name="1. Registrarse" isAbstract="false" isLeaf="false">
         <elementDefinition Id="25a4f26c-c613-410b-9fb3-6ecf6cf1602e" />
         <subjects>
           <subsystemMoniker Id="b2749d37-275f-4e8e-923d-5db968349af6" LastKnownName="sales" />
@@ -76,7 +82,7 @@
         <elementDefinition Id="8a23261a-9f20-43f4-a239-5a5c5266bd50" />
         <extendedCases>
           <extend Id="155cc28e-d699-4d9f-bccb-44c16922dcd3">
-            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Loguearse" />
+            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Registrarse" />
             <elementDefinition Id="2fe60871-9924-4593-bb5f-0e96da201457" />
           </extend>
         </extendedCases>
@@ -90,7 +96,7 @@
         <elementDefinition Id="d4622834-0b33-4f43-bda1-b985072be3e3" />
         <extendedCases>
           <extend Id="cb0de57c-f427-4610-b197-2b9f5767bf5a">
-            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Loguearse" />
+            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Registrarse" />
             <elementDefinition Id="6312e413-a13e-41fc-983c-67d0eb50c37c" />
           </extend>
         </extendedCases>
@@ -104,7 +110,7 @@
         <elementDefinition Id="4e84d52f-1ac9-4aaf-9d7b-1a69428db4a8" />
         <extendedCases>
           <extend Id="3cc57526-7f69-438f-8c7f-a6e46d648f13">
-            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Loguearse" />
+            <useCaseMoniker Id="9534f19f-abd6-4438-8e8a-b842ef84e9a3" LastKnownName="1. Registrarse" />
             <elementDefinition Id="64b47b42-544b-4557-9ab6-ac64f626784d" />
           </extend>
         </extendedCases>
@@ -189,7 +195,7 @@
       </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <useCase Id="59786642-ea17-4922-9f40-b4b6f02b733e" name="2.2  Modificar Usuario" isAbstract="false" isLeaf="false">
+      <useCase Id="59786642-ea17-4922-9f40-b4b6f02b733e" name="2.3  Modificar Usuario" isAbstract="false" isLeaf="false">
         <elementDefinition Id="6d38961f-e66b-4059-9fc0-cb8aa82360db" />
         <extendedCases>
           <extend Id="7f031bc2-d27a-4fbb-af9a-5e146f2ce63e">
@@ -209,7 +215,7 @@
       </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <useCase Id="008c6c44-1d8b-4a72-a3c4-2f0199bb4158" name="2.2  Eliminar Usuario" isAbstract="false" isLeaf="false">
+      <useCase Id="008c6c44-1d8b-4a72-a3c4-2f0199bb4158" name="2.4  Eliminar Usuario" isAbstract="false" isLeaf="false">
         <elementDefinition Id="d30cca7d-d1f9-4815-940f-63848131a6bb" />
         <extendedCases>
           <extend Id="29c377f6-5667-4fdb-baa9-c6344d9300af">
